@@ -1,2 +1,2 @@
 # Red-Dead-Website
- A project using HTML and CSS for red dead redemption 2
+ A project using HTML and CSS for Red Dead Redemption 2
