@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color:white;
+    padding:15px;
+}
+.leftheader{
+    font-weight: bold;
+    padding-left: 60px;
+    flex-grow: 0;
+}
+.rightheader{
+    display:flex;   
+    gap:10px;
+    padding-right: 60px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+
+.section1{
+    background-color: #1F2937;
+    color:white;
+    flex:auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+}
+.section2{
+    background-color: white;
+    flex:auto;
+}
+.section2container {
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+.section3{
+    background-color: #E5E7EB;
+    flex:1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.section4{
+    background-color: white;
+    display:flex;
+    height: 400px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color:#1F2937 ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    color:white;
+    text-align: center;
+
+    
+}
+
+#masterpiece {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#img1{
+    width:auto;
+    height:300px;
+}
+
+#playnow{
+    background-color: #3882F6;
+    color: white;
+    padding:5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:#3882F6;
+}
+
+#playnow:hover{
+    background-color: red;
+    border-color: red;
+}
+
+.leftsection1{
+    padding: 50px;
+    width:300px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.rightsection1{
+    padding-right:50px;
+}
+
+.boximages {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #1F2937 ;
+    border-radius: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+
+#info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.boxes {
+    width:200px;
+    padding:20px;
+}
+
+.boxtext {
+    text-align: center;
+    font-style: italic;
+}
+
+#quote {
+    font-size: 90px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #87888a
+}
+
+#arthur {
+    font-style: italic;
+}
+
+.section4container {
+    width: 700px;
+    height: 150px;
+    background-color: #3882F6;
+}
+
+.textsection4 {
+    color:white
+}
